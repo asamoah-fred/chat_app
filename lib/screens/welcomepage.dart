@@ -40,37 +40,47 @@ class _WelcomePageState extends State<WelcomePage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(
-                width: MediaQuery.of(context).size.width,
-                padding: const EdgeInsets.symmetric(
-                  vertical: 15,
-                ),
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  borderRadius: const BorderRadius.all(
-                    Radius.circular(15),
-                  ),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Color(0xffdf8e33).withAlpha(
-                        100,
-                      ),
-                      offset: const Offset(
-                        2,
-                        4,
-                      ),
-                      blurRadius: 8,
-                      spreadRadius: 2,
+              InkWell(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => WelcomePage(),
                     ),
-                  ],
-                  color: Colors.white,
-                ),
-                child: const Text(
-                  'Login',
-                  style: TextStyle(
-                    fontSize: 20,
-                    color: Color(
-                      0xfff7892b,
+                  );
+                },
+                child: Container(
+                  width: MediaQuery.of(context).size.width,
+                  padding: const EdgeInsets.symmetric(
+                    vertical: 15,
+                  ),
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    borderRadius: const BorderRadius.all(
+                      Radius.circular(15),
+                    ),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Color(0xffdf8e33).withAlpha(
+                          100,
+                        ),
+                        offset: const Offset(
+                          2,
+                          4,
+                        ),
+                        blurRadius: 8,
+                        spreadRadius: 2,
+                      ),
+                    ],
+                    color: Colors.white,
+                  ),
+                  child: const Text(
+                    'Login',
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Color(
+                        0xfff7892b,
+                      ),
                     ),
                   ),
                 ),
