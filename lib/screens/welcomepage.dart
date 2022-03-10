@@ -1,3 +1,7 @@
+// ignore_for_file: avoid_web_libraries_in_flutter
+
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 class WelcomePage extends StatefulWidget {
@@ -22,7 +26,7 @@ class _WelcomePageState extends State<WelcomePage> {
             boxShadow: [
               BoxShadow(
                 color: Colors.grey.shade200,
-                offset: Offset(2, 4),
+                offset: const Offset(2, 4),
                 blurRadius: 5,
                 spreadRadius: 2,
               ),
@@ -45,7 +49,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => WelcomePage(),
+                      builder: (context) => const WelcomePage(),
                     ),
                   );
                 },
@@ -61,7 +65,7 @@ class _WelcomePageState extends State<WelcomePage> {
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: Color(0xffdf8e33).withAlpha(
+                        color: const Color(0xffdf8e33).withAlpha(
                           100,
                         ),
                         offset: const Offset(
@@ -91,11 +95,15 @@ class _WelcomePageState extends State<WelcomePage> {
               InkWell(
                 onTap: () {
                   Navigator.push(
-                  context,MaterialPageRoute(builder: (context) => WelcomePage(),),);
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const WelcomePage(),
+                    ),
+                  );
                 },
                 child: Container(
                   width: MediaQuery.of(context).size.width,
-                  padding: EdgeInsets.symmetric(
+                  padding: const EdgeInsets.symmetric(
                     vertical: 13,
                   ),
                   alignment: Alignment.center,
@@ -110,13 +118,52 @@ class _WelcomePageState extends State<WelcomePage> {
                       width: 2,
                     ),
                   ),
-                  child:  Text(
+                  child: const Text(
                     'Register now',
                     style: TextStyle(
                       fontSize: 20,
                       color: Colors.white,
                     ),
                   ),
+                ),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              Container(
+                margin: const EdgeInsets.only(
+                  top: 40,
+                  bottom: 20,
+                ),
+                child: Column(
+                  children: const [
+                    Text(
+                      'Quick Login with Touch ID',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 17,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Icon(
+                      Icons.fingerprint,
+                      size: 90,
+                      color: Colors.white,
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Text(
+                      'Touch ID',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 15,
+                        decoration: TextDecoration.underline,
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ],
