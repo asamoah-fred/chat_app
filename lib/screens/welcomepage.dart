@@ -88,28 +88,34 @@ class _WelcomePageState extends State<WelcomePage> {
               const SizedBox(
                 height: 20,
               ),
-              Container(
-                width: MediaQuery.of(context).size.width,
-                padding: const EdgeInsets.symmetric(
-                  vertical: 13,
-                ),
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  borderRadius: const BorderRadius.all(
-                    Radius.circular(
-                      15,
+              InkWell(
+                onTap: () {
+                  Navigator.push(
+                  context,MaterialPageRoute(builder: (context) => WelcomePage(),),);
+                },
+                child: Container(
+                  width: MediaQuery.of(context).size.width,
+                  padding: EdgeInsets.symmetric(
+                    vertical: 13,
+                  ),
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    borderRadius: const BorderRadius.all(
+                      Radius.circular(
+                        15,
+                      ),
+                    ),
+                    border: Border.all(
+                      color: Colors.white,
+                      width: 2,
                     ),
                   ),
-                  border: Border.all(
-                    color: Colors.white,
-                    width: 2,
-                  ),
-                ),
-                child: const Text(
-                  'Register now',
-                  style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.white,
+                  child:  Text(
+                    'Register now',
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
               ),
