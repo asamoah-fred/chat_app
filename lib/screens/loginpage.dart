@@ -85,44 +85,44 @@ class _LoginPageState extends State<LoginPage> {
                               ],
                             ),
                           ),
-                          //             Container(
-                          //               margin: EdgeInsets.symmetric(vertical: 10),
-                          //               child: Column(
-                          //                 crossAxisAlignment: CrossAxisAlignment.start,
-                          //                 children: <Widget>[
-                          //                   Text(
-                          //                     "Password",
-                          //                     style: TextStyle(
-                          //                       fontWeight: FontWeight.bold,
-                          //                       fontSize: 15,
-                          //                     ),
-                          //                   ),
-                          //                   SizedBox(
-                          //                     height: 10,
-                          //                   ),
-                          //                   TextField(
-                          //                     obscureText: true,
-                          //                     decoration: InputDecoration(
-                          //                       hintText: "password",
-                          //                       suffixIcon: Icon(
-                          //                         Icons.visibility,
-                          //                         color: Colors.black54,
-                          //                       ),
-                          //                       // icon: Icon(Icons.lock),
-                          //                       border: OutlineInputBorder(
-                          //                         borderRadius: BorderRadius.circular(
-                          //                           15,
-                          //                         ),
-                          //                       ),
-                          //                       fillColor: Color(
-                          //                         0xfff3f3f4,
-                          //                       ),
-                          //                       filled: true,
-                          //                     ),
-                          //                   ),
-                          //                 ],
-                          //               ),
-                          //             ),
+                          Container(
+                            margin: EdgeInsets.symmetric(vertical: 10),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  "Password",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 15,
+                                  ),
+                                ),
+                                SizedBox(
+                                  height: 10,
+                                ),
+                                TextField(
+                                  obscureText: true,
+                                  decoration: InputDecoration(
+                                    hintText: "password",
+                                    suffixIcon: Icon(
+                                      Icons.visibility,
+                                      color: Colors.black54,
+                                    ),
+                                    // icon: Icon(Icons.lock),
+                                    border: OutlineInputBorder(
+                                      borderRadius: BorderRadius.circular(
+                                        15,
+                                      ),
+                                    ),
+                                    fillColor: Color(
+                                      0xfff3f3f4,
+                                    ),
+                                    filled: true,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
                           //           ],
                           //         ),
                           //         SizedBox(
