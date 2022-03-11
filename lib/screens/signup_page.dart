@@ -311,6 +311,43 @@ class _SignUpPageState extends State<SignUpPage> {
                   ),
                 ),
               ),
+              Positioned(
+                top: 40,
+                left: 0,
+                child: InkWell(
+                  onTap: () {
+                    Navigator.pop(context);
+                  },
+                  child: Container(
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 10,
+                    ),
+                    child: Row(
+                      children: <Widget>[
+                        Container(
+                          padding: EdgeInsets.only(
+                            left: 0,
+                            top: 10,
+                            bottom: 10,
+                          ),
+                          child: Icon(
+                            Icons.arrow_left,
+                            color: Colors.black,
+                            size: 30,
+                          ),
+                        ),
+                        Text(
+                          'Back',
+                          style: TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
