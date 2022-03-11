@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_signup_ui/screens/loginpage.dart';
 
 class WelcomePage extends StatefulWidget {
   const WelcomePage({Key? key}) : super(key: key);
@@ -40,12 +41,15 @@ class _WelcomePageState extends State<WelcomePage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              const SizedBox(
+                height: 80,
+              ),
               InkWell(
                 onTap: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const WelcomePage(),
+                      builder: (context) => const LoginPage(),
                     ),
                   );
                 },
@@ -124,7 +128,7 @@ class _WelcomePageState extends State<WelcomePage> {
                 ),
               ),
               const SizedBox(
-                height: 20,
+                height: 30,
               ),
               Container(
                 margin: const EdgeInsets.only(
