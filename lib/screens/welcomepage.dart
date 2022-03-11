@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:login_signup_ui/screens/loginpage.dart';
+import 'package:login_signup_ui/screens/login_page.dart';
+import 'package:login_signup_ui/screens/signup_page.dart';
 
 class WelcomePage extends StatefulWidget {
   const WelcomePage({Key? key}) : super(key: key);
@@ -97,7 +98,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const WelcomePage(),
+                      builder: (context) => const SignUpPage(),
                     ),
                   );
                 },
