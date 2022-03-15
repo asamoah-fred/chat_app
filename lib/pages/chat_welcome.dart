@@ -11,13 +11,13 @@ class Home extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           // elevation: 0,
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.lightBlue,
           title: const Text(
             "Talkline",
             style: TextStyle(
               fontSize: 25,
               fontWeight: FontWeight.bold,
-              color: Colors.blue,
+              color: Colors.white,
             ),
           ),
           actions: <Widget>[
@@ -38,9 +38,9 @@ class Home extends StatelessWidget {
           ],
           //TabBar
           bottom: const TabBar(
-            unselectedLabelColor: Colors.black54,
-            indicatorColor: Colors.blue,
-            labelColor: Colors.blue,
+            unselectedLabelColor: Colors.black87,
+            indicatorColor: Colors.white,
+            labelColor: Colors.white,
             tabs: [
               Tab(
                 icon: Icon(Icons.home),
