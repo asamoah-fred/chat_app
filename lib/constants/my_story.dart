@@ -40,7 +40,8 @@ Widget MyStory({myStory}) {
               Text(
                 "Add to Story",
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.black,
+                  fontSize: 15,
                 ),
               ),
             ],
@@ -50,4 +51,3 @@ Widget MyStory({myStory}) {
     ),
   );
 }
-

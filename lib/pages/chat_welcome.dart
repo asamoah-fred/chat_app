@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:chat_app/Tabs/home.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -12,7 +13,7 @@ class Home extends StatelessWidget {
           // elevation: 0,
           backgroundColor: Colors.white,
           title: const Text(
-            "facebook",
+            "Talkline",
             style: TextStyle(
               fontSize: 25,
               fontWeight: FontWeight.bold,

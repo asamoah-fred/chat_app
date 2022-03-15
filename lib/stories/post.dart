@@ -9,7 +9,7 @@ class Post extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        elevation: 0, 
+        elevation: 0,
         title: Center(
           child: const Text("Stories"),
         ),
@@ -88,6 +88,17 @@ class Post extends StatelessWidget {
               like: '10k',
               caption: '',
               post: 'images/22.jpg'),
+          // ignore: prefer_const_constructors
+          Center(
+            child: const Text(
+              "loading !!!",
+              style: TextStyle(
+                fontStyle: FontStyle.italic,
+                color: Colors.black87,
+                fontSize: 18,
+              ),
+            ),
+          ),
         ],
       ),
     );

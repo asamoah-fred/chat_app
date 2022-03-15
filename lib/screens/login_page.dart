@@ -1,8 +1,10 @@
 // ignore_for_file: prefer_const_constructors, sized_box_for_whitespace
 
+import 'package:chat_app/pages/chat_welcome.dart';
 import 'package:flutter/material.dart';
 import 'package:chat_app/Widget/bezierContainer.dart';
 import 'package:chat_app/screens/signup_page.dart';
+import 'package:chat_app/Tabs/home.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -200,11 +202,21 @@ class _LoginPageState extends State<LoginPage> {
                             ],
                           ),
                         ),
-                        child: Text(
-                          'Login',
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.white,
+                        child: InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Home(),
+                              ),
+                            );
+                          },
+                          child: Text(
+                            'Login',
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: Colors.white,
+                            ),
                           ),
                         ),
                       ),

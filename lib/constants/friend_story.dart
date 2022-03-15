@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
-Widget FriendStory({FriendStory, proName, proPic, }) {
+Widget FriendStory({
+  FriendStory,
+  proName,
+  proPic,
+}) {
   return Padding(
     padding: const EdgeInsets.only(
       left: 5,
@@ -51,8 +55,9 @@ Widget FriendStory({FriendStory, proName, proPic, }) {
               Text(
                 proName,
                 softWrap: true,
-                style: TextStyle(
-                  color: Colors.white,
+                style: const TextStyle(
+                  color: Colors.black,
+                  fontSize: 14,
                 ),
               ),
             ],

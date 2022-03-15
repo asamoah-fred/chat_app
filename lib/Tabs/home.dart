@@ -53,8 +53,8 @@ class HomeScreen extends StatelessWidget {
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(60.0),
                             ),
-                            child:
-                                Text("What's on your mind?                  "),
+                            child: Text(
+                                "What's on your mind?                            "),
                           ),
                         ),
                       ],
@@ -234,6 +234,14 @@ class HomeScreen extends StatelessWidget {
                       FriendStory: 'images/7.jpg',
                       proName: 'Osei Lydia',
                       proPic: 'images/8.jpg'),
+                  FriendStory(
+                      FriendStory: 'images/1.jpg',
+                      proName: 'Oppong Pomaa',
+                      proPic: 'images/10.jpg'),
+                  FriendStory(
+                      FriendStory: 'images/20.jpg',
+                      proName: 'Ohemaa Queenzy',
+                      proPic: 'images/99.jpg'),
                 ],
               ),
             ),
@@ -269,7 +277,7 @@ class HomeScreen extends StatelessWidget {
               post: 'images/22.jpg'),
           FriendPost(
               proPic: 'images/80.jpg',
-              proName: 'Emmanuella Os',
+              proName: 'Emmanuella Osei',
               dateAndLocation: '2days, New York',
               comments: 'Comments 10',
               like: '200',
