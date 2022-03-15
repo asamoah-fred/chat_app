@@ -104,16 +104,14 @@ class _WelcomePageState extends State<WelcomePage> {
                     vertical: 15,
                   ),
                   alignment: Alignment.center,
-                  decoration: BoxDecoration(
-                    borderRadius: const BorderRadius.all(
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(
                       Radius.circular(15),
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: const Color(0xffdf8e33).withAlpha(
-                          100,
-                        ),
-                        offset: const Offset(
+                        color: Color(0xff42a5f5),
+                        offset: Offset(
                           2,
                           4,
                         ),
@@ -128,7 +126,7 @@ class _WelcomePageState extends State<WelcomePage> {
                     style: TextStyle(
                       fontSize: 20,
                       color: Color(
-                        0xfff7892b,
+                        0xFF0389F6,
                       ),
                     ),
                   ),

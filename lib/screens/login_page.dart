@@ -34,6 +34,47 @@ class _LoginPageState extends State<LoginPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       SizedBox(height: height * .2),
+                      RichText(
+                        textAlign: TextAlign.center,
+                        text: const TextSpan(
+                          text: 'T',
+                          style: TextStyle(
+                            fontSize: 30,
+                            fontWeight: FontWeight.w700,
+                            color: Colors.lightBlue,
+                          ),
+                          children: [
+                            TextSpan(
+                              text: 'al',
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 30,
+                              ),
+                            ),
+                            TextSpan(
+                              text: 'k',
+                              style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 30,
+                              ),
+                            ),
+                            TextSpan(
+                              text: 'lin',
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 30,
+                              ),
+                            ),
+                            TextSpan(
+                              text: 'e',
+                              style: TextStyle(
+                                color: Colors.lightBlue,
+                                fontSize: 30,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
                       SizedBox(height: 20),
                       Column(
                         children: <Widget>[
@@ -154,8 +195,8 @@ class _LoginPageState extends State<LoginPage> {
                             begin: Alignment.centerLeft,
                             end: Alignment.centerRight,
                             colors: const [
-                              Color(0xfffbb448),
-                              Color(0xfff7892b),
+                              Colors.blue,
+                              Colors.lightBlue,
                             ],
                           ),
                         ),
@@ -262,7 +303,7 @@ class _LoginPageState extends State<LoginPage> {
                               child: Container(
                                 decoration: BoxDecoration(
                                   color: Color(
-                                    0xff2872b5,
+                                    0xFF0389F6,
                                   ),
                                   borderRadius: BorderRadius.only(
                                     bottomRight: Radius.circular(
@@ -324,7 +365,7 @@ class _LoginPageState extends State<LoginPage> {
                                 'Register',
                                 style: TextStyle(
                                   color: Color(
-                                    0xfff79c4f,
+                                    0xFF0389F6,
                                   ),
                                   fontSize: 13,
                                   fontWeight: FontWeight.w600,

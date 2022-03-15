@@ -36,6 +36,47 @@ class _SignUpPageState extends State<SignUpPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       SizedBox(height: height * .2),
+                      RichText(
+                        textAlign: TextAlign.center,
+                        text: const TextSpan(
+                          text: 'T',
+                          style: TextStyle(
+                            fontSize: 30,
+                            fontWeight: FontWeight.w700,
+                            color: Colors.lightBlue,
+                          ),
+                          children: [
+                            TextSpan(
+                              text: 'al',
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 30,
+                              ),
+                            ),
+                            TextSpan(
+                              text: 'k',
+                              style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 30,
+                              ),
+                            ),
+                            TextSpan(
+                              text: 'lin',
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 30,
+                              ),
+                            ),
+                            TextSpan(
+                              text: 'e',
+                              style: TextStyle(
+                                color: Colors.lightBlue,
+                                fontSize: 30,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
                       SizedBox(
                         height: 50,
                       ),
@@ -245,12 +286,8 @@ class _SignUpPageState extends State<SignUpPage> {
                             begin: Alignment.centerLeft,
                             end: Alignment.centerRight,
                             colors: const [
-                              Color(
-                                0xfffbb448,
-                              ),
-                              Color(
-                                0xfff7892b,
-                              ),
+                              Colors.blue,
+                              Colors.lightBlue,
                             ],
                           ),
                         ),
@@ -297,7 +334,7 @@ class _SignUpPageState extends State<SignUpPage> {
                                 'Login',
                                 style: TextStyle(
                                   color: Color(
-                                    0xfff79c4f,
+                                    0xFF0389F6,
                                   ),
                                   fontSize: 13,
                                   fontWeight: FontWeight.w600,

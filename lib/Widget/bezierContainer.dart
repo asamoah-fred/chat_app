@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 
 import 'customClipper.dart';
 
-
 class BezierContainer extends StatelessWidget {
   const BezierContainer({Key? key}) : super(key: key);
 
@@ -23,8 +22,8 @@ class BezierContainer extends StatelessWidget {
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 colors: [
-                  Color(0xfffbb448),
-                  Color(0xffe46b10),
+                  Colors.blue,
+                  Colors.lightBlue,
                 ],
               ),
             ),
