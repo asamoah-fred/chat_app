@@ -33,8 +33,8 @@ class _WelcomePageState extends State<WelcomePage> {
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
               colors: [
-                Color(0xfffbb448),
-                Color(0xffe46b10),
+                Colors.lightBlue,
+                Colors.blue,
               ],
             ),
           ),
