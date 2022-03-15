@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors, sized_box_for_whitespace
 
 import 'package:flutter/material.dart';
-import 'package:login_signup_ui/Widget/bezierContainer.dart';
-import 'package:login_signup_ui/screens/signup_page.dart';
+import 'package:chat_app/Widget/bezierContainer.dart';
+import 'package:chat_app/screens/signup_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);

@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:login_signup_ui/Widget/bezierContainer.dart';
-import 'package:login_signup_ui/screens/login_page.dart';
+import 'package:chat_app/Widget/bezierContainer.dart';
+import 'package:chat_app/screens/login_page.dart';
 
 class SignUpPage extends StatefulWidget {
   const SignUpPage({Key? key, this.title}) : super(key: key);
