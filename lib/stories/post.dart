@@ -1,6 +1,6 @@
-import 'package:facebook/Tabs/home.dart';
+import 'package:chat_app/Tabs/home.dart';
 import 'package:flutter/material.dart';
-import 'package:facebook/constants/friend_post.dart';
+import 'package:chat_app/constants/friend_post.dart';
 
 class Post extends StatelessWidget {
   const Post({Key? key}) : super(key: key);
