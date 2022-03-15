@@ -1,26 +1,40 @@
-## CHAT APP
-
-# TalkLine
+## TalkLine
 
 
 
 ## Welcome Screen!
 
-![11](https://user-images.githubusercontent.com/96062970/157800498-f916efb7-5262-44c9-9660-eb1324bd3b4a.png)
+
+![1](https://user-images.githubusercontent.com/96062970/158422609-48976cc7-fa0a-4e36-9271-aec1e13af8e2.png)
 
 
 
 
 ## Login Screen!
 
-![12](https://user-images.githubusercontent.com/96062970/157800551-94b341ed-5bd6-418c-b427-d74a34977a6a.png)
+![2](https://user-images.githubusercontent.com/96062970/158422720-30001a6d-9836-4dc8-9657-b5685821f60d.png)
 
+
+
+## Home Page!
+
+![3](https://user-images.githubusercontent.com/96062970/158423103-ba7a4658-6821-4383-8ff1-7cb66cd28d49.png)
+
+
+## Friends Posts! 
+
+
+![4](https://user-images.githubusercontent.com/96062970/158423249-6b6ab1d5-ba78-4beb-b43f-36e385f752e9.png)
+
+
+![5](https://user-images.githubusercontent.com/96062970/158423368-3f6bb8b5-47fb-4a65-b6b6-e0c5706f83b7.png)
 
 
 
 ## Signup Screen!
 
-![13](https://user-images.githubusercontent.com/96062970/157800596-366dc342-6552-4b2e-8ee1-4e0f175d9953.png)
+
+![6](https://user-images.githubusercontent.com/96062970/158422793-b21f824b-4b53-4b9c-8e2c-46640ac1ff29.png)
 
 
 
