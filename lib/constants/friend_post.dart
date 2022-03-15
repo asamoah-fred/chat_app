@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
-import 'package:facebook/stories/post.dart';
+import 'package:chat_app/stories/post.dart';
 
 Widget FriendPost(
     {proPic, proName, dateAndLocation, comments, like, post, caption}) {
