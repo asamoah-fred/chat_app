@@ -59,6 +59,15 @@ class Home extends StatelessWidget {
             ],
           ),
         ),
+        body: TabBarView(
+          children: const [
+            HomeScreen(),
+            Icon(Icons.group),
+            Icon(Icons.ondemand_video),
+            Icon(Icons.notifications_none),
+            Icon(Icons.menu),
+          ],
+        ),
       ),
     );
   }
