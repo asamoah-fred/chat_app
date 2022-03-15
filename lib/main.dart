@@ -3,6 +3,7 @@ import 'package:chat_app/screens/welcomepage.dart';
 
 void main() {
   runApp(const MyApp());
+  
 }
 
 class MyApp extends StatelessWidget {

@@ -13,6 +13,53 @@ class _WelcomePageState extends State<WelcomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Center(
+          child: RichText(
+            textAlign: TextAlign.center,
+            text: const TextSpan(
+              text: 'T',
+              style: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.w700,
+                color: Colors.white,
+              ),
+              children: [
+                TextSpan(
+                  text: 'al',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 30,
+                  ),
+                ),
+                TextSpan(
+                  text: 'k',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 30,
+                  ),
+                ),
+                TextSpan(
+                  text: 'lin',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 30,
+                  ),
+                ),
+                TextSpan(
+                  text: 'e',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 30,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+        elevation: 0,
+        backgroundColor: Colors.lightBlue,
+      ),
       body: SingleChildScrollView(
         child: Container(
           padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -42,9 +89,6 @@ class _WelcomePageState extends State<WelcomePage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const SizedBox(
-                height: 80,
-              ),
               InkWell(
                 onTap: () {
                   Navigator.push(
@@ -126,45 +170,6 @@ class _WelcomePageState extends State<WelcomePage> {
                       color: Colors.white,
                     ),
                   ),
-                ),
-              ),
-              const SizedBox(
-                height: 30,
-              ),
-              Container(
-                margin: const EdgeInsets.only(
-                  top: 40,
-                  bottom: 20,
-                ),
-                child: Column(
-                  children: const [
-                    Text(
-                      'Quick Login with Touch ID',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 17,
-                      ),
-                    ),
-                    SizedBox(
-                      height: 20,
-                    ),
-                    Icon(
-                      Icons.fingerprint,
-                      size: 90,
-                      color: Colors.white,
-                    ),
-                    SizedBox(
-                      height: 20,
-                    ),
-                    Text(
-                      'Touch ID',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 15,
-                        decoration: TextDecoration.underline,
-                      ),
-                    ),
-                  ],
                 ),
               ),
             ],
